@@ -12,6 +12,10 @@
 		7E44159F20F4ABA30014F416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E44159D20F4ABA30014F416 /* Main.storyboard */; };
 		7E4415A120F4ABA40014F416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4415A020F4ABA40014F416 /* Assets.xcassets */; };
 		7E4415A420F4ABA40014F416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4415A220F4ABA40014F416 /* LaunchScreen.storyboard */; };
+		7E4415AC20F4ABBE0014F416 /* food_full_english_breakfast.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4415AB20F4ABBE0014F416 /* food_full_english_breakfast.png */; };
+		7E4415AE20F4ABD30014F416 /* food_ma-bo-nasu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4415AD20F4ABD30014F416 /* food_ma-bo-nasu.png */; };
+		7E4415B020F4ABE00014F416 /* onigiri_yukari.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4415AF20F4ABE00014F416 /* onigiri_yukari.png */; };
+		7E4415B220F4B2020014F416 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4415B120F4B2020014F416 /* ZoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7E4415A020F4ABA40014F416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E4415A320F4ABA40014F416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E4415A520F4ABA40014F416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4415AB20F4ABBE0014F416 /* food_full_english_breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_full_english_breakfast.png; sourceTree = "<group>"; };
+		7E4415AD20F4ABD30014F416 /* food_ma-bo-nasu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food_ma-bo-nasu.png"; sourceTree = "<group>"; };
+		7E4415AF20F4ABE00014F416 /* onigiri_yukari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onigiri_yukari.png; sourceTree = "<group>"; };
+		7E4415B120F4B2020014F416 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 				7E44159920F4ABA30014F416 /* AppDelegate.swift */,
 				7E44159B20F4ABA30014F416 /* ViewController.swift */,
 				7E44159D20F4ABA30014F416 /* Main.storyboard */,
+				7E4415AB20F4ABBE0014F416 /* food_full_english_breakfast.png */,
+				7E4415AF20F4ABE00014F416 /* onigiri_yukari.png */,
+				7E4415AD20F4ABD30014F416 /* food_ma-bo-nasu.png */,
 				7E4415A020F4ABA40014F416 /* Assets.xcassets */,
 				7E4415A220F4ABA40014F416 /* LaunchScreen.storyboard */,
 				7E4415A520F4ABA40014F416 /* Info.plist */,
+				7E4415B120F4B2020014F416 /* ZoomViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -123,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E4415A420F4ABA40014F416 /* LaunchScreen.storyboard in Resources */,
+				7E4415AE20F4ABD30014F416 /* food_ma-bo-nasu.png in Resources */,
+				7E4415B020F4ABE00014F416 /* onigiri_yukari.png in Resources */,
 				7E4415A120F4ABA40014F416 /* Assets.xcassets in Resources */,
 				7E44159F20F4ABA30014F416 /* Main.storyboard in Resources */,
+				7E4415AC20F4ABBE0014F416 /* food_full_english_breakfast.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E44159C20F4ABA30014F416 /* ViewController.swift in Sources */,
+				7E4415B220F4B2020014F416 /* ZoomViewController.swift in Sources */,
 				7E44159A20F4ABA30014F416 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
